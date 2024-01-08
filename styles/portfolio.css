@@ -166,3 +166,30 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+/* footer style */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.social-links img {
+  margin-right: 25px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  padding: 18px 35px;
+  color: #757575;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+  margin-bottom: 25px;
+}
